@@ -66,6 +66,7 @@ nav  li a p:hover {
   background-color: #18bc9c;
   text-align: center;
   height: 685px;
+  width: 100%;
 }
 
 h1 {
@@ -96,5 +97,14 @@ h1 {
 .first p {
   color: white;
   font-size: 28px;
-  transform: translateY(100%)
+  transform: translateY(100%);
+}
+
+.first i {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  bottom: 55px;
+  background-color: #18bc9c;
+
 }
