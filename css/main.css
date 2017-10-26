@@ -15,13 +15,15 @@ nav {
 }
 
 nav h3 {
-  width: 800px;
+  width: 810px;
   font-weight: 900;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
   padding-left: 120px;
   margin: 0px;
   transform: translateY(50%);
+  letter-spacing: 1px;
+  text-shadow: 1px 0.5px white;
 }
 
 nav ul {
@@ -39,14 +41,60 @@ nav a {
   text-decoration: none;
   color: white;
 }
+
 .text-uppercase {
   text-transform: uppercase;
 }
+
 nav p {
-  font-size: 17px;
-  padding-right: 10px;
+  font-size: 15px;
+  padding-right: 15px;
   margin: 0px;
   transform: translateY(100%);
   font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
   font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 1px 0.5px white;
+}
+
+nav  li a p:hover {
+  color: #18bc9c;
+  text-shadow: 1px 0.5px #18bc9c;
+}
+
+.first {
+  background-color: #18bc9c;
+  text-align: center;
+  height: 685px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 2px 0px white;
+  color: white;
+  font-size: 70px;
+  transform: translateY(100%);
+}
+
+.first img {
+  transform: translateY(40%);
+}
+
+.first hr {
+  max-width: 250px;
+  margin: 120px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #fff;
+
+}
+
+.first p {
+  color: white;
+  font-size: 28px;
+  transform: translateY(100%)
 }
