@@ -194,7 +194,7 @@ h1 {
   position: relative;
   bottom: 20px;
   background-color: #18bc9c;
-  padding: 0 10px 0 0;
+  padding: 0 10px;
 }
 /* Fin de Star */
 .about a {
@@ -217,13 +217,14 @@ h1 {
 }
 /* Parte contact me*/
 .contact-me {
-  text-align: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .contact-me h2 {
   font-weight: 900;
   font-size: 3em;
+  text-align: center;
 }
 
 /* Star */
@@ -242,17 +243,18 @@ h1 {
   font-size: 32px;
   position: relative;
   bottom: 20px;
+  left: 650px;
   background-color: white;
-  padding: 0 10px 0 0;
+  padding: 0 10px;
 }
 /* Fin de Star */
 
 .form {
   padding-left: 300px;
+  width: 55%;
 }
 
 .form-div {
-  width: 60%;
   padding-bottom: 40px;
   padding-top: 40px;
   border-bottom: 1px solid #eee;
@@ -267,7 +269,8 @@ input[type=text] {
     font-size: 25px;
 }
 
-.message {
+.form-message {
+  border-bottom: 1px solid #eee;
   padding-top: 40px;
   padding-bottom: 200px;
 }
@@ -279,9 +282,74 @@ input[type=text] {
   border: 2px solid #18bc9c;
   border-radius: 5px;
   height: 35px;
-  margin-top: 0px;
+  margin-top: 20px;
   color: white;
   font-size: 18px;
   padding-top: 10px;
   background-color: #18bc9c;
+  text-align: center;
+  font-weight: bolder;
+}
+/* SECCION FOOTER*/
+footer {
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  height: 345px;
+}
+
+.footer-box {
+  padding-top: 25px;
+  overflow: auto;
+  transform: translateX(8%);
+}
+
+.box {
+  float: left;
+  width: 28%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.box h3 {
+  font-size: 27px;
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px white;
+  margin-bottom: 30px;
+}
+
+.box p {
+  padding: 0;
+  margin: 0px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+
+.box .fa {
+  font-size: 22px;
+  border: 2px solid white;
+  border-radius: 100%;
+  height: 25px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 25px;
+}
+
+.box span {
+  color: #18bc9c;
+}
+
+.copyright {
+  margin-top: 90px;
+}
+
+.copyright p {
+  font-size: 14px;
 }
