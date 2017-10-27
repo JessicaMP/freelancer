@@ -5,8 +5,9 @@ colores es: #2c3e50, #18bc9c,
   #212529.*/
 body {
   margin: 0px;
+  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
 }
-
+/* header */
 nav {
   background-color: #2c3e50;
   padding: 0px;
@@ -18,7 +19,6 @@ nav h3 {
   width: 810px;
   font-weight: 900;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
   padding-left: 120px;
   margin: 0px;
   transform: translateY(50%);
@@ -51,7 +51,6 @@ nav p {
   padding-right: 15px;
   margin: 0px;
   transform: translateY(100%);
-  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
   font-weight: 900;
   letter-spacing: 2px;
   text-shadow: 1px 0.5px white;
@@ -61,7 +60,7 @@ nav  li a p:hover {
   color: #18bc9c;
   text-shadow: 1px 0.5px #18bc9c;
 }
-
+/* Primera parte del body*/
 .first {
   background-color: #18bc9c;
   text-align: center;
@@ -70,19 +69,18 @@ nav  li a p:hover {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
   font-weight: 900;
   letter-spacing: 2px;
   text-shadow: 2px 0px white;
   color: white;
-  font-size: 70px;
-  transform: translateY(100%);
+  font-size: 4.75em;
+  transform: translateY(75%);
 }
 
 .first img {
   transform: translateY(40%);
 }
-
+/* Star */
 .first hr {
   max-width: 250px;
   margin: 120px auto 30px;
@@ -94,17 +92,183 @@ h1 {
 
 }
 
-.first p {
-  color: white;
-  font-size: 28px;
-  transform: translateY(100%);
-}
-
 .first i {
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   position: relative;
-  bottom: 55px;
+  bottom: 48px;
   background-color: #18bc9c;
+  padding: 0 10px;
+}
+/* Fin de Star */
+.first p {
+  color: white;
+  font-size: 25px;
+  transform: translateY(-100%);
+  margin: 0px;
+  font-weight: 600;
+}
+/* Segunda parte del body*/
+.second {
+  text-align: center;
+}
 
+.second-box {
+  overflow-x: auto;
+  transform: translateX(10%);
+}
+
+.second-box div {
+  padding: 0 20px 20px 10px;
+  float: left;
+}
+
+.second-box img {
+  width: 350px;
+}
+/* Star */
+.second hr {
+  max-width: 250px;
+  margin: 100px auto 0px;
+  padding-top: 10;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #2c3e50;
+}
+
+.second i {
+  color: #2c3e50;
+  font-size: 32px;
+  position: relative;
+  bottom: 20px;
+  background-color: white;
+  padding: 0 10px;
+}
+/* Fin de Star */
+.second h2 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: bolder;
+  transform: translateY(100%);
+  padding-top: 20px;
+}
+/*About*/
+.about {
+  text-align: center;
+  background-color: #18bc9c;
+  color: white;
+  height: 580px;
+}
+
+.about h2 {
+  margin: 100px 0px 80px 0px;
+  font-size: 3em;
+  font-weight: 900;
+  transform: translateY(100%);
+  padding-top: 30px;
+}
+
+.about-box span {
+  display: inline-block;
+  width: 390px;
+  text-align: left;
+  padding: 0 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+/* Star */
+.about hr {
+  max-width: 250px;
+  margin: 100px auto 0px;
+  padding-top: 10;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: white;
+}
+
+.about i {
+  color: white;
+  font-size: 32px;
+  position: relative;
+  bottom: 20px;
+  background-color: #18bc9c;
+  padding: 0 10px 0 0;
+}
+/* Fin de Star */
+.about a {
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 40px;
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.about a i {
+  /*transform: translateY(100%);*/
+  font-size: 20px;
+  position: relative;
+  bottom: 0px;
+}
+/* Parte contact me*/
+.contact-me {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-me h2 {
+  font-weight: 900;
+  font-size: 3em;
+}
+
+/* Star */
+.contact-me hr {
+  max-width: 250px;
+  margin: 0px auto 0px;
+  padding-top: 10;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+  border-color: #2c3e50;
+}
+
+.contact-me i {
+  color: #2c3e50;
+  font-size: 32px;
+  position: relative;
+  bottom: 20px;
+  background-color: white;
+  padding: 0 10px 0 0;
+}
+/* Fin de Star */
+
+.form {
+  padding-left: 300px;
+}
+
+.form-div {
+  width: 60%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 25px;
+}
+
+.message {
+  padding-top: 40px;
+  padding-bottom: 200px;
 }
