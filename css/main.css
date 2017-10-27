@@ -211,7 +211,6 @@ h1 {
 }
 
 .about a i {
-  /*transform: translateY(100%);*/
   font-size: 20px;
   position: relative;
   bottom: 0px;
@@ -271,4 +270,18 @@ input[type=text] {
 .message {
   padding-top: 40px;
   padding-bottom: 200px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  display: inline-block;
+  width: 80px;
+  border: 2px solid #18bc9c;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 0px;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  background-color: #18bc9c;
 }
