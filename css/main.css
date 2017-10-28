@@ -13,6 +13,9 @@ nav {
   padding: 0px;
   margin: 0px;
   height: 110px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 nav h3 {
@@ -62,6 +65,7 @@ nav  li a p:hover {
 }
 /* Primera parte del body*/
 .first {
+  padding-top: 100px;
   background-color: #18bc9c;
   text-align: center;
   height: 685px;
