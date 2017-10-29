@@ -5,7 +5,7 @@ colores es: #2c3e50, #18bc9c,
   #212529.*/
 body {
   margin: 0px;
-  font-family: 'Montserrat', sans-serif, 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif,'Lato', sans-serif;
 }
 /* header */
 nav {
@@ -64,7 +64,7 @@ nav  li a p:hover {
   text-shadow: 1px 0.5px #18bc9c;
 }
 /* Primera parte del body*/
-.first {
+.presentation {
   padding-top: 100px;
   background-color: #18bc9c;
   text-align: center;
@@ -81,11 +81,11 @@ h1 {
   transform: translateY(75%);
 }
 
-.first img {
+.presentation img {
   transform: translateY(40%);
 }
 /* Star */
-.first hr {
+.presentation hr {
   max-width: 250px;
   margin: 120px auto 30px;
   padding: 0;
@@ -96,7 +96,7 @@ h1 {
 
 }
 
-.first i {
+.presentation i {
   color: white;
   font-size: 32px;
   position: relative;
@@ -105,7 +105,7 @@ h1 {
   padding: 0 10px;
 }
 /* Fin de Star */
-.first p {
+.presentation p {
   color: white;
   font-size: 25px;
   transform: translateY(-100%);
@@ -113,25 +113,25 @@ h1 {
   font-weight: 600;
 }
 /* Segunda parte del body*/
-.second {
+.porfolio {
   text-align: center;
 }
 
-.second-box {
+.porfolio-box {
   overflow-x: auto;
   transform: translateX(10%);
 }
 
-.second-box div {
+.porfolio-box div {
   padding: 0 20px 20px 10px;
   float: left;
 }
 
-.second-box img {
+.porfolio-box img {
   width: 350px;
 }
 /* Star */
-.second hr {
+.porfolio hr {
   max-width: 250px;
   margin: 100px auto 0px;
   padding-top: 10;
@@ -141,7 +141,7 @@ h1 {
   border-color: #2c3e50;
 }
 
-.second i {
+.porfolio i {
   color: #2c3e50;
   font-size: 32px;
   position: relative;
@@ -150,7 +150,7 @@ h1 {
   padding: 0 10px;
 }
 /* Fin de Star */
-.second h2 {
+.porfolio h2 {
   margin: 0;
   font-size: 3em;
   font-weight: bolder;
