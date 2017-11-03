@@ -1,16 +1,21 @@
 /*  Codigo*/
 body {
+  width: 100%;
   margin: 0px;
   font-family: 'Montserrat', sans-serif,'Lato', sans-serif;
 }
 /* header */
+header {
+  width: 100%;
+}
+
 nav {
   background-color: #2c3e50;
   padding: 0px;
   margin: 0px;
   height: 110px;
   position: fixed;
-  width: 100%;
+  width: inherit;
   z-index: 1;
 }
 
@@ -28,6 +33,7 @@ nav h3 {
 nav ul {
   padding: 0px;
   margin: 0px;
+  width: inherit;
 }
 
 nav li {
@@ -39,6 +45,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+
 }
 
 .text-uppercase {
@@ -53,6 +60,7 @@ nav p {
   font-weight: 900;
   letter-spacing: 2px;
   text-shadow: 1px 0.5px white;
+  transition: color 0.10s;
 }
 
 nav  li a p:hover {
